@@ -547,6 +547,9 @@ transform: scale(1);
     margin-top: 180px; 
     width: 700px;
 }
+.mega-footer{
+  width: 80%; 
+}
 }
 
 @media (max-width: 550px) {
@@ -592,6 +595,13 @@ transform: scale(1);
 
   .team {
       margin-top: 25%;
+  }
+}
+
+@media (max-width:490px){
+  .mega-footer{
+      width: 60%;
+      margin-left: -20px;
   }
 }
 
@@ -644,7 +654,13 @@ margin-left: 65px;
  .team{
   margin-top: 33%;
  }
+  .mega-footer {
+      width: 48%; 
+      margin-left: -49px;
+    
 }
+}
+
 
 
 @media (max-width: 350px) {
